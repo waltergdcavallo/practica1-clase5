@@ -1,8 +1,8 @@
 body{
     width: 100vw;
     height: 100vh;
-
-    background-image: url(/assets/img/person.jpg);
+    background: #833AB4;
+    background-image: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.05) 50%, rgba(244, 146, 9, 1) 100%) , url(/assets/img/person.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
