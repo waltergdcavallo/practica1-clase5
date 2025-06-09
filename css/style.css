@@ -1,4 +1,31 @@
 body{
     width: 100vw;
     height: 100vh;
+
+    background-image: url(/assets/img/person.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: transparent !important;
+    padding: 15px;
+    transform: all 2s;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: yellow !important;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 10px;
 }
