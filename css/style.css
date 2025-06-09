@@ -29,3 +29,26 @@ body{
     margin: 0 10px;
     padding: 10px;
 }
+
+.nav-link{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #000;
+    transition: all 1s;
+}
+
+.nav-link:hover{
+    background-color: #000;
+    border-radius: 15px;
+    color: yellow !important;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.texto{
+    color: #fff;
+    font-size: 18px;
+}
